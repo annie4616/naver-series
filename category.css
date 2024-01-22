@@ -1,0 +1,52 @@
+/* 카테고리와 장르 리스트 */
+.list {
+    height: 37px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(141, 141, 141);
+}
+.list .category {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.list .category > li {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    color: rgb(114, 113, 113);
+    margin-right: 15px;
+}
+.list .category > li:hover{
+    color: #03c73c;
+}
+.list .home {
+    color: #03c73c;
+}
+.list .genre {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: flex-end;
+}
+.list .genre > li {
+    display: flex;
+    align-items: center;
+    height: 15px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.genre .rec {
+    color: black;
+}
+.genre .ro {
+    color: rgb(153, 151, 151);
+}
+.genre .bor {
+    border-right: 1px solid rgb(153, 151, 151);
+    padding-right: 10px;
+}

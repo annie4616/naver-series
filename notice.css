@@ -1,0 +1,114 @@
+.notice {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.notice .chart {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+}
+.notice .chart .buy {
+    width: 25%;
+    border-right: 1px solid #dbdbdb;
+}
+.notice .chart .header {
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 0px 3px 15px;
+}
+.notice .chart .app .header {
+    width: 750px;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+.notice .chart .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notice .chart .content > div {
+    width: 208px;
+    height: 48px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding-top: 12px;
+}
+.notice .chart .app .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.notice .logo > div {
+    border: 1px solid #dbdbdb;
+    width: 150px;
+    height: 46px;
+    border-radius: 3px;
+    padding-top: 9px;
+}
+.notice .content .use {
+    margin-top: 26px;
+}
+.notice .content .guide {
+    margin-top: 16px;
+}
+.notice .app :not(.header) {
+    text-align: center;
+}
+.notice .app .content {
+    margin-top: 20px;
+}
+.notice .app .content .tip {
+    font-size: 17px;
+    font-weight: bold;
+}
+.notice .app .content .pc {
+    margin: 2px auto 15px auto;
+    color: gray;
+    font-size: 13px;
+}
+.chartBottom {
+    display: flex;
+    flex-direction: row;
+}
+.notice .announce {
+    display: flex;
+    flex-direction: row;
+    margin:10px 0px 10px 0px;
+    width: 50%;
+}
+.announce .head {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.announce .free {
+    color: gray;
+}
+.type {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    margin:10px 0px 10px 0px;
+}
+.type > span {
+    font-weight: bold;
+    padding-left: 7px;
+}
+.type :not(:first-child) {
+    border-left: 1px solid #dbdbdb;
+}
+.type :not(:last-child) {
+    padding-right: 7px;
+}
+.type > span .sub {
+    font-weight: lighter;
+    color: gray;
+    font-size: 13px;
+}

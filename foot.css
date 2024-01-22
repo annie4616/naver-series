@@ -1,0 +1,86 @@
+.foot {
+    color: rgb(158, 158, 158);
+    font-size: 12px;
+    width: 1000px;
+    margin: 30px auto auto auto;
+    padding-bottom: 80px;
+}
+.foot .up {
+    display: flex;
+    flex-direction: row;
+}
+.foot .up .topRight {
+    border-left: 1px solid #dbdbdb;
+    padding-left: 10px;
+    width: 45%;
+}
+.foot .up .topLeft {
+    width: 55%;
+}
+.foot .down {
+    margin-top: 20px;
+}
+.foot .down3 {
+    margin-top: 20px;
+}
+
+.foot .first > span::after{
+    content: '|';
+    top: 5px;
+    left: 0;
+    width: 1px;
+    height: 10px;
+    padding: 0px 0px 0px 5px;
+}
+.foot .first > span {
+    height: 13px;
+}
+.foot .topLeft .third{
+    margin-top: 7px;
+    font-weight: bold;
+}
+.foot .topRight .Rsecond {
+    margin-top: 7px;
+    font-weight: bold;
+}
+/* .foot .topLeft .second >span {
+    position: relative;
+} */
+.foot .topLeft .second >span::after{
+    content: '|';
+    /* color: #dbdbdb; */
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+    bottom:0px;
+    width: 1px;
+    height: 10px;
+    padding: 0px 0px 0px 5px;
+}
+/* .foot .topLeft .second:last-child::after{
+    content: none;
+} */
+.foot .topRight .Rfirst > span::after{
+    content: '|';
+    top: 5px;
+    left: 0;
+    width: 1px;
+    height: 10px;
+    padding: 0px 0px 0px 5px;
+}
+.foot .down >span::after{
+    content: '|';
+    top: 5px;
+    left: 0;
+    width: 1px;
+    height: 10px;
+    padding: 0px 0px 0px 5px;
+}
+.foot .down2 >span::after {
+    content: '|';
+    top: 5px;
+    left: 0;
+    width: 1px;
+    height: 10px;
+    padding: 0px 0px 0px 5px;
+}

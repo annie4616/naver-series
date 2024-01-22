@@ -1,0 +1,57 @@
+.serial {
+    border: 1px solid #dbdbdb;
+    width: 704px;
+    border-radius: 2px;
+    margin: 15px auto auto 0px;
+    background-color: white;
+}
+.serial .header {
+    display: flex;
+    flex-direction: row;
+    padding: 5px auto 5px auto;
+    height: 34px;
+    width: 702px;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.serial .header > p {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    padding-left: 20px;
+}
+.serial .header > span {
+    width: 50%;
+    font-size:  13px;
+    color: rgb(153, 150, 150);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.serial > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    width: 704px;
+    flex-wrap: wrap;
+    margin: 15px auto 15px 35px;
+}
+.serial > ul > li {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 116px;
+}
+.serial > ul > li > p {
+    font-size: 14px;
+    margin-top: 3px;
+    color: gray
+}
+.serial > ul > li .black {
+    font-size: 13px;
+    margin-top: 3px;
+}

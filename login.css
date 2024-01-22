@@ -1,0 +1,33 @@
+.loginBox {
+    width: 280px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin: 15px auto auto 15px;
+}
+.loginBox .header {
+    background-color: rgb(247, 247, 247);
+    width: 278px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    font-size: 13px;
+}
+.loginBox .pleaseLogin {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.loginBox .loginButton {
+    font-size: 13px;
+    background-color: #03c73c;
+    width: 250px;
+    height: 32px;
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+    margin: 15px auto 15px 15px;
+    border-radius: 3px;
+}

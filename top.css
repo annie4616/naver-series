@@ -1,0 +1,52 @@
+/* 맨 위 추천 웹소설  */
+.top {
+    position: relative;
+    width: 1000px;
+    height: 401px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-bottom: 1px solid rgb(153, 151, 151);
+}
+.top > ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    gap: 37px;
+}
+.top > ul > li{
+    width: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 11px auto auto;
+    text-align: center;
+}
+.top > ul > li > img {
+    margin-top: 0px;
+}
+.top .title {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.top > ul > li :not(.title){
+    font-size: 13px;
+}
+.top > ul > li > p {
+    margin-top: 3px;
+    color: rgb(153, 151, 151);
+}
+.top > ul >li > span :not(.black){
+    color: rgb(153, 151, 151);
+}
+.top .recom {
+    position: absolute;
+    color: rgb(97, 97, 97);
+    font-size: 13px;
+    font-weight:bold;
+    height: 10px;
+    top : 375px;
+    right: 10px;
+
+}

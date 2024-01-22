@@ -1,0 +1,77 @@
+/* 프리패스 메뉴 */
+.tab {
+    height: 72px;
+    width: 1000px;
+    margin: auto;
+}
+.tab > ul {
+    list-style-type: none;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+.tab > ul > li {
+    font-size: 14px;
+    width: 140px;
+    height: 37px;
+    text-align: center;
+    padding-top: 7px;
+    border-left: 1px solid rgb(153, 151, 151);
+    border-top: 1px solid rgb(153, 151, 151);
+    border-bottom: 1px solid rgb(153, 151, 151);
+} 
+.tab >ul .timedeal {
+    border-right: 1px solid rgb(153, 151, 151);;
+}
+.tab >ul >li:hover {
+    color: white;
+    background-color: black;
+}
+.tab >ul .freepass {
+    color: white;
+    background-color: black;
+}
+/* 프리패스 웹소설 리스트 */
+.freepassList {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    padding-bottom: 50px;
+    /* border-bottom: 1px solid rgb(153, 151, 151); */
+}
+.freepassList .freepassCoupon {
+    position: absolute;
+    top:20px;
+    left:0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+.freepassList > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.freepassList > ul >li {
+    /* height: 310px; */
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 30px; */
+}
+/* .freepassList > ul >li >img {
+    padding-top: 20px;
+} */
+.freepassList > ul > li > p {
+    margin-top: 5px;
+}
+.freepassList > ul > li >span .black {
+    margin-top: 3px;
+}
